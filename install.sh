@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "安装运行库中..."
-apt install Nodejs -y
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 pkg install git -y
 echo "安装MCSM中..."
 cd ~

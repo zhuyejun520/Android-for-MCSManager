@@ -7,21 +7,21 @@ Install MCSManager on your mobile phone terminal to make use of your idle mobile
 apt update -y
 ```
 2.安装wget工具
-```python
+```shell
 apt install wget -y
 ```
 使用方法：
 
 1.用wget拉取install.sh并运行来安装MCSM的本体
-```python
+```shell
 wget -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/install.sh | bash
 ```
 2.用wget拉取start1.sh并运行来运行MCSM的守护进程
-```python
+```shell
 wget -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/start1.sh | bash
 ```
 3.用wget拉取start2.sh并运行来运行MCSM的web进程
-```python
+```shell
 wget -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/start2.sh | bash
 ```
 4.网页打开：http://localhost:23333/

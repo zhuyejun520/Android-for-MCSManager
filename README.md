@@ -3,7 +3,7 @@ Install MCSManager on your mobile phone terminal to make use of your idle mobile
 前置工作：
 
 1.更新软件源
-```python
+```shell
 apt update -y
 ```
 2.安装wget工具

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "安装运行库中..."
 apt install Nodejs -y
 pkg install git -y

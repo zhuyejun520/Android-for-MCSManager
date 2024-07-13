@@ -14,14 +14,14 @@ apt install wget -y
 
 1.用wget拉取install.sh并运行来安装MCSM的本体
 
-wget -q0- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/install.sh | bash
 
 2.用wget拉取start1.sh并运行来运行MCSM的守护进程
 
-wget -q0- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/start1.sh | bash
+wget -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/start1.sh | bash
 
 3.用wget拉取start2.sh并运行来运行MCSM的web进程
 
-wget -q0- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/start2.sh | bash
+wget -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/start2.sh | bash
 
 4.网页打开：http://localhost:23333/

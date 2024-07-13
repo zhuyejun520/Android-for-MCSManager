@@ -1,6 +1,9 @@
 #!/bin/bash
 echo "安装运行库中..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm install 20
+node -v
+npm -v
 pkg install git -y
 echo "安装MCSM中..."
 cd ~

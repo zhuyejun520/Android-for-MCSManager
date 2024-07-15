@@ -1,10 +1,14 @@
 #!/bin/bash
 clear
+ip_address=$(ifconfig | grep 'inet ' | grep -Fv 127.0.0.1 | awk '{print $2}')
 echo '
 By: 一只憨憨的竹叶呀
 
  欢迎使用 Android-for-MCSManager 小白辅助脚本
-bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/mian.sh)
+ '
+echo "本机IP地址： $ip_address"
+echo '
+bash <(curl -sSL https://lz.qaiu.top/parser?url=https://pan.seeoss.com/s/qOOfO)
 
 '
 

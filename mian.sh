@@ -4,14 +4,14 @@ echo '
 By: 一只憨憨的竹叶呀
 
  欢迎使用 Android-for-MCSManager 小白辅助脚本
- bash <(wget -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/mian.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/mian.sh)
 
 '
 
 #一键安装Android-for-MCSManager
  Android_MCSManager() {
     echo "> 安装Android-for-MCSManager"
-    bash <(wget -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/install.sh)
  }
 
 #启动守护进程

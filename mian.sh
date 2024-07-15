@@ -4,7 +4,7 @@ echo '
 By: 一只憨憨的竹叶呀
 
  欢迎使用 Android-for-MCSManager 小白辅助脚本
- bash <(wget -qO- https://lz.qaiu.top/parser?url=https://pan.seeoss.com/s/l0ack)
+ bash <(curl -qO- https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/mian.sh)
 
 '
 

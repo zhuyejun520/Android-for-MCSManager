@@ -1,11 +1,14 @@
 #!/bin/sh
 
 install() {
+    apt install wget -y
     echo "> 开始安装java-21"
     wget -O java21.deb https://lz.qaiu.top/parser?url=https://pan.seeoss.com/s/nLNsQ
     dpkg -i java21.deb
-    apt --fix-broken install
+    apt --fix-broken install -y
     echo "安装完成..."
+    exit
+    bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/mian.sh)
  }
 
  # 脚本入口

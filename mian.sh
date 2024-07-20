@@ -18,6 +18,11 @@ bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSMa
     bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/install.sh)
  }
 
+ #安装java21环境
+ java_install() {
+    bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/java21install.sh)
+ }
+
 #启动守护进程
  start_Daemon() {
     echo "> 启动守护进程"

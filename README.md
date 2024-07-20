@@ -27,8 +27,9 @@ bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSMa
 
 请选择以下功能：
 1. 安装Android-for-MCSManager
-2. 启动守护进程
-3. 启动Web进程
+2. 安装java21-环境
+3. 启动守护进程
+4. 启动Web进程
 q. 退出
 
 请输入功能序号:
@@ -41,3 +42,10 @@ q. 退出
 4.切换窗口，重新运行脚本，输入3启动web进程
 
 5.网页打开：http://localhost:23333/
+
+====================================================================================
+
+国内加速脚本链接：
+```shell
+bash <(curl -sSL https://lz.qaiu.top/parser?url=https://pan.seeoss.com/s/qOOfO)
+```

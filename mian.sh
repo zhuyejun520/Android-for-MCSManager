@@ -8,7 +8,7 @@ By: 一只憨憨的竹叶呀
  '
 echo "本机IP地址： $ip_address"
 echo '
-bash <(curl -sSL https://lz.qaiu.top/parser?url=https://pan.seeoss.com/s/qOOfO)
+bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/mian.sh)
 
 '
 
@@ -47,15 +47,17 @@ else
         echo ""
         echo "请选择以下功能："
         echo "1. 安装Android-for-MCSManager"
-        echo "2. 启动守护进程"
-        echo "3. 启动Web进程"
+        echo "2. 安装java-21环境"
+        echo "3. 启动守护进程"
+        echo "4. 启动Web进程"
         echo "q. 退出"
         echo ""
         read -p "请输入功能序号: " input
         case $input in
         1) Android_MCSManager ;;
-        2) start_Daemon ;;
-        3) start_web ;;
+        2) java_install ;;
+        3) start_Daemon ;;
+        4) start_web ;;
         'q') break ;;
         *) ;;
         esac
